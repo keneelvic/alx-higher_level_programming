@@ -1,9 +1,5 @@
-#!/usr/bin/python3
-from calculator_1 import add, sub, mul, div
-if __name__ == "__main__":
-    a = 10
-    b = 5
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
-    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
+[master 92a9254] further manipulation of module import
+ 4 files changed, 60 insertions(+), 1 deletion(-)
+ create mode 100755 0x02-python-import_modules/1-calculation.py
+ create mode 100644 0x02-python-import_modules/__pycache__/calculator_1.cpython-38.pyc
+ create mode 100644 0x02-python-import_modules/calculator_1.py
