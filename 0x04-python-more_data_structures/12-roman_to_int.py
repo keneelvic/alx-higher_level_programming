@@ -3,7 +3,7 @@ from functools import reduce
 
 
 def roman_to_int(roman_string):
-    if roman_string:
+    if roman_string and type(roman_string) is str:
         dictionary_rom = {
                 'XL': 40,
                 'CD': 400,
@@ -29,5 +29,5 @@ def roman_to_int(roman_string):
                 num += dictionary_rom[roman_string[i]]
                 i += 1
         return num
-    elif not roman_string or None:
+    else:
         return 0
