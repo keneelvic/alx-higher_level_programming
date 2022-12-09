@@ -29,5 +29,5 @@ def roman_to_int(roman_string):
                 num += dictionary_rom[roman_string[i]]
                 i += 1
         return num
-    else:
+    elif not roman_string or None:
         return 0
